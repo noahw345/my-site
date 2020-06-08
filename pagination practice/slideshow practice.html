@@ -1,0 +1,32 @@
+	<!-->
+  <div class="w3-content w3-section" style="max-width:100 max-height:100">
+  <img class="mySlides" src="fishing.png" style="width:100%">
+  <div class="w3-display-bottomleft w3-container">Key Biscayne, FL</div>
+  <img class="mySlides" src="p1160735.jpg" style="width:100%">
+  <div class="w3-display-bottomleft w3-container">Cheyenne River Reservation, SD</div>
+  <img class="mySlides" src="zona.png" style="width:100%">
+  <div class="w3-display-bottomleft w3-container">Navajo</div>
+</div>
+		
+		
+
+    <script>
+    //automates slideshow
+  var slideIndex = 0;
+	carousel();
+
+	function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 2000); 
+	}
+    </script>
+</div>
+		
+		<!-->

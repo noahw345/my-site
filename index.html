@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Noah Weinstein</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon. ico" type="image/x-icon">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" text = "text/css" href="mycss.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+
+</style>
+</head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+  <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button">Portfolio</a>
+  <a href="#skills" onclick="w3_close()" class="w3-bar-item w3-button">Skills</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-center w3-padding-16">Noah Weinstein</div>
+  </div>
+</div>
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">	
+    <hr>
+<!-- About me-->
+  <div class="w3-padding-16 w3-center" id="about">
+    <h3>About</h3>
+		  <!-- First card-->
+		<div class="w3-card">
+		  <img src="zona.png" alt="Alps" style="width: 50%">
+		  <div class="w3-container w3-center  w3-light-blue">
+		    <p>I am a rising high school senior intrested in computer science, math, and logic. 
+				In my spare time, I find myself enjoying the great outdoors. I made this website to track my projects this summer!</p>
+		  </div>
+		</div>
+  </div>
+	
+  
+  <hr>
+  <!-- Portfolio-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="portfolio">
+    <h3>Portfolio</h3>
+
+  	<!--first column -->
+    <div class="w3-col s4 w3-center">
+		<!--first item -->
+		<a href = "https://github.com/noahw345/Snake-Game">
+  	  <div class ="w3-row-padding w3-container w3-hover-shadow">
+      <img src="snake.png" alt="Snake Game" style="width:100%">
+      <h3>Snake Game</h3>
+      <p>Uses JFrame and JSwing to make snake game with java</p>
+  	  </div>
+	  </a>
+	  <!--second item -->
+	  <a href = "https://github.com/noahw345/Estimate-PI">
+  	<div class ="w3-row-padding w3-container w3-hover-shadow">
+          <img src= "pi.png" alt="PI" style="width:100%">
+          <h3>Estimate PI</h3></a>
+          <p>Estimate PI uses two methods to estimate pi</p>
+  	  <ol>
+  		  <li class = "w3-left-align">Leibniz Summation</li>
+  		  <li class = "w3-left-align">Generates a random set of points on a 1x1 coordinate plane. Then uses these points to find the ratio of points that fall within a circle centered at origin and total points. This ratio is used to estimate pi algabraicially. 
+  	  </ol>
+  	</div>
+     </a>
+    </div>
+
+    <!--second column -->
+    <div class="w3-col s4 w3-center">
+		<!--first item -->
+		<a href = "https://github.com/noahw345/Weather-bot">
+  	  <div class ="w3-row-padding w3-container w3-hover-shadow">
+      <img src="weather.png" alt="Weather bot" style="width:100%">
+  	<h3>Weather bot</h3>
+      <p>Web scrapes the current weather and emails a short report using BeautifulSoup and python</p>
+  	  </div>
+	  </a>
+	  <!--second item -->
+	  <a href = "https://github.com/noahw345/Tic-Tac-Toe">
+  	<div class ="w3-row-padding w3-container w3-hover-shadow">
+          <img src="tictactoe.png" alt="Tic Tac Toe" style="width:100%">
+          <h3>Tic Tac Toe</h3>
+          <p>Console based tic tac toe game</p>
+  	</div>
+	</a>
+    </div>
+  
+    <!--third column -->
+    <div class="w3-col s4 w3-center ">
+		<!--first item -->
+		<a href = "https://github.com/noahw345/Fibonacci-Sequence">
+  	  <div class ="w3-row-padding w3-container w3-hover-shadow">
+      <img src="fibonacci.png" alt="Fibonacci" style="width:100%">
+      <h3>Fibonacci Sequence</h3>
+      <p>Loops through fibonacci sequence</p>
+  	  </div>
+	  </a>
+	  <!--second item -->
+  	<div class ="w3-row-padding w3-container w3-hover-shadow">
+          <img src="coin-flip.png" alt="Coin Flip" style="width:100%">
+          <h3>Coin Flipper</h3>
+          <p>Simulates repetitive coin flip and reports results</p>
+  	</div>
+    </div>
+</div>
+	  
+      <!-- Pagination -->
+      <div class="w3-center w3-padding-32">
+        <div class="w3-bar w3-light-blue">
+          <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+		  <a href="#" class="w3-bar-item w3-button w3-hover-black">1</a>
+		  <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+          <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+        </div>
+      </div>
+  </div>
+  
+  <hr>
+
+  <!-- Skills -->
+  <div class="w3-container w3-padding-32 w3-center" id="skills">  
+    <h3>Skills</h3><br>
+    <div class="w3-padding-32 w3-left-align">
+    <p>
+    <h4><b>Programming languages</b></h4>
+
+<li class="w3-bar">
+  <img src="java.jpg" class="w3-bar-item w3-circle" style="width:85px">
+  <img src="JavaScript-logo.png" class="w3-bar-item w3-circle" style="width:85px">
+  <img src="python.png" class="w3-bar-item w3-circle" style="width:85px">
+  <img src="html5.png" class="w3-bar-item w3-circle" style="width:85px">
+  <img src="css-logo-2.png" class="w3-bar-item w3-circle" style="width:85px">
+  <img src="swift.png" class="w3-bar-item w3-circle" style="width:85px">
+  
+</li>
+    </p>
+    </div>
+  </div>
+  
+  <hr>
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32 w3-light-blue">
+	  
+	  <h3> Contact Me</h3>
+	<div class="w3-bar">
+		<a href = "mailto:nwweinstein3@gmail.com"><img src="email.png" class="w3-bar-item w3-circle" style="width:85px"></a>
+		<a href = "https://github.com/noahw345"><img src="github.png" class="w3-bar-item w3-circle" style="width:85px"></a>
+		<a href = "https://linkedin.com"><img src="linkedin.png" class="w3-bar-item w3-circle" style="width:85px"></a>
+	</div>
+    </footer>
+    </div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+</body>
+</html>
